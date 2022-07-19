@@ -290,6 +290,7 @@ nav {
 .modal__half {
   width: 50%;
   padding: 40px 72px;
+  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -309,16 +310,15 @@ nav {
 
 .modal__languages {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .modal__language {
-  width: 25%;
+  width: 33.33%;
   padding: 16px;
   position: relative;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: center;
   transition: all 300ms ease;
 }
 
@@ -333,7 +333,8 @@ nav {
 
 .language__name {
   position: absolute;
-  bottom: -10px;
+  text-align: center;
+  bottom: -30px;
   transform: scale(0);
   transition: all 300ms ease;
 }
