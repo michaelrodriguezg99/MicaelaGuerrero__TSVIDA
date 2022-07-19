@@ -165,12 +165,11 @@ nav,
 
 .header {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
   max-width: 1000px;
-  padding: 0 30px;
 }
 
 .header__content {
@@ -178,7 +177,6 @@ nav,
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 100px;
 }
 
 .header__para {
@@ -235,11 +233,11 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 100px;
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
-  height: 100px;
 }
 
 #personal__logo {
