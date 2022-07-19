@@ -1,0 +1,21 @@
+<header class="header">
+    <div class="header__content">
+        <h1 class="title">¡Hola!</h1>
+        <figure class="header__image">
+            <img src="./assets/FotoHermosaDeMica.png" alt="">
+        </figure>
+        <h1 class="title text__blue">Soy Micaela Guerrero</h1>
+        <p class="header__para">
+        Aquí podrás encontrar la información básica de los seguros que ofrecemos en <a class="text__blue click" src="#seguros"
+        >Triple S Vida</a>.
+        <br>
+        Aprende un poco más sobre mi y como contactarme <b class="text__blue click" onclick="toggleModal()">AQUÍ</b>.
+        <br>
+        </p>
+    </div>
+</header>
+<a href="#">
+    <button class="mail__btn click" onclick="toggleModal()">
+        <i class="fas fa-envelope"></i>
+    </button>
+</a>
